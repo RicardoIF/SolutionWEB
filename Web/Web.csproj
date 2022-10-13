@@ -211,9 +211,9 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BO\BO.csproj">
+    <ProjectReference Include="..\BO\BO-FRAMEWORK.csproj">
       <Project>{26974ca8-731e-46ac-a40c-453e42c33ac7}</Project>
-      <Name>BO</Name>
+      <Name>BO-FRAMEWORK</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

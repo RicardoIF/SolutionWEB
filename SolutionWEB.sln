@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BO", "BO\BO.csproj", "{26974CA8-731E-46AC-A40C-453E42C33AC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BO-FRAMEWORK", "BO\BO-FRAMEWORK.csproj", "{26974CA8-731E-46AC-A40C-453E42C33AC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{BC924F0B-7535-4A1E-B3C6-DCD2201FFE0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET FRAMEWORK", ".NET FRAMEWORK", "{7FE7A548-4DC1-4953-9782-25D3465DBF94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET CORE", ".NET CORE", "{469EC4D7-4AEC-4090-BC9F-B3FA63D332E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26974CA8-731E-46AC-A40C-453E42C33AC7} = {7FE7A548-4DC1-4953-9782-25D3465DBF94}
+		{BC924F0B-7535-4A1E-B3C6-DCD2201FFE0B} = {7FE7A548-4DC1-4953-9782-25D3465DBF94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC86822C-068D-4F8A-BC39-ADEE97C31CE6}
